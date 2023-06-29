@@ -1,0 +1,40 @@
+{
+  "name": "homework-game",
+  "version": "1.0.0",
+  "description": "\"Браузерная игра\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Андрей",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Andrey-Afanasev/homework-game.git"
+  },
+  "keywords": [
+    "игра"
+  ],
+  "bugs": {
+    "url": "https://github.com/Andrey-Afanasev/homework-game/issues"
+  },
+  "homepage": "https://github.com/Andrey-Afanasev/homework-game#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5"
+  },
+  "dependencies": {
+    "core-js": "^3.31.0"
+  },
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": 3
+      }
+    ]
+  ]
+}
